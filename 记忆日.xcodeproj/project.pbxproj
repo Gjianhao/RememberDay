@@ -59,8 +59,8 @@
 				0A63A5AA1F72AD7F0008F900 /* AppDelegate.swift */,
 				0A238AD41F75EA43004145C4 /* JYRStretchableHeaderView.swift */,
 				0A63A5BE1F72B11F0008F900 /* MainTableViewController.swift */,
-				0A63A5C01F72B1280008F900 /* other */,
 				0A6759811F7A98E400C9EC22 /* Extension.swift */,
+				0A63A5C01F72B1280008F900 /* other */,
 			);
 			path = "记忆日";
 			sourceTree = "<group>";

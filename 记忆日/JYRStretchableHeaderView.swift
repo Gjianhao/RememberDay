@@ -23,7 +23,7 @@ public class JYRStretchableHeaderView: NSObject {
         imageRatio = stretchableView.bounds.height / stretchableView.bounds.width
     }
     
-    public func scrollViewDidScroll(scrollView : UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView : UIScrollView) {
         /* 滚动y的偏移量 */
         let yOffset = scrollView.contentOffset.y
         /* 如果向上滚动 */

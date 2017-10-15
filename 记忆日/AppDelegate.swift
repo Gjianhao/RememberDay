@@ -18,12 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* 先定义一个窗体 */
         window = UIWindow(frame: UIScreen.main.bounds)
         /* 设置窗体的背景色 */
-        window?.backgroundColor = UIColor.cyan
+        window?.backgroundColor = UIColor.white
         /* 初始化一个导航控制器，将main控制器添加到上面 */
-        let mainTableVC = MainTableViewController()
-        let nav = UINavigationController(rootViewController: mainTableVC)
+        let mainTableVC = MainViewController()
         /* 给窗体设置主控制器 */
-        window?.rootViewController = nav
+        window?.rootViewController = mainTableVC
         window?.makeKeyAndVisible()
         return true
     }
